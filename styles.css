@@ -54,7 +54,7 @@ header ul li a {
     position: relative;
     width: 100%;
     min-height: 100Vh;
-    background: url();
+    background: url(images/bannerpic.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
