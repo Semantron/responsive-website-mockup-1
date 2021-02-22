@@ -31,3 +31,32 @@ header .logo {
     letter-spacing: 2px;
     transition: 0.6s;
 }
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.6s;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100Vh;
+    background: url();
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
