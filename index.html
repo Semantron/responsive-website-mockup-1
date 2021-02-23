@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
+        <header id="header">
             <a href="#" class="logo">Logo</a>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -21,13 +21,37 @@
         </header>
         <!-- Banner -->
         <section class="banner" id="home">
-            <h2>We Make <span>Brands</span> Matter</h2>
+            <h2>We Can Secure <br>Your <span>E-Business</span></h2>
         </section>
         <!-- About -->
+        <section class="sec" id="about">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Who We Are</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta fermentum massa quis pulvinar. Praesent semper
+                        mollis dolor. Duis lacinia consequat efficitur. Cras eget nisi et magna elementum ornare. Fusce vitae mattis orci,
+                        blandit mollis nulla. Nam luctus orci ut ex molestie rhoncus. Mauris ut imperdiet eros. Maecenas nec ligula ut purus
+                        cursus maximus sit amet ut sem. Aliquam augue urna, pellentesque id urna nec, lobortis tincidunt eros. In
+                        ullamcorper pretium purus eu luctus. Etiam consectetur ligula sit amet feugiat venenatis. Integer porta viverra
+                        metus id gravida. Quisque condimentum neque a mi iaculis ultrices. Maecenas sollicitudin tortor vel sapien fringilla
+                        rhoncus.</p>
+                        <a href="#" class="btn">Read Our Story</a>
+                </div>
+            </div>
+        </section>
         <!-- Services -->
         <!-- Stats -->
         <!-- Portfolio -->
         <!-- Team -->
         <!-- Contact -->
+        
+        <!-- Script to add class when we scroll the page -->
+        <script type="text/javascript">
+            window.addEventListener("scroll", function() {
+                let header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+        
     </body>
 </html>
